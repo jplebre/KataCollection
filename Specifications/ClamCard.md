@@ -65,6 +65,7 @@ Scenario: Multiple journeys reaching daily cap<br>
 # BONUS Scenario: 
 
 Take into account for return journies, the new fares are as described below:
+
 |  Zone  |  Single  |   Day   |    Week    |     Month   |
 |--------|----------|---------|------------|-------------|
 | ZoneA  |  £4.50   |  £8.50  |   £38.00   |    £120.00  |
