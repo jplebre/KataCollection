@@ -33,24 +33,24 @@ Implement a system for a contactless travel card for the London underground.
 
 # USE CASE SCENARIOS:
 
-Scenario: One-Way Zone 1 Journey<br>
+**Scenario:** One-Way Zone 1 Journey<br>
   Given Michael has an Oyster Card<br>
   And Michael travels from Asterisk to Aldgate<br>
   Then Michael will be charged £2.50 for his journey<br>
 
-Scenario: One-Way Zone 1 to Zone 2 Journey<br>
+**Scenario:** One-Way Zone 1 to Zone 2 Journey<br>
   Given Michael has an Oyster Card<br>
   And Michael travels from Asterisk to Barbican<br>
   Then Michael will be charged £3.00 for his journey<br>
 
-Scenario: Multiple journeys<br>
+**Scenario:** Multiple journeys<br>
   Given Michael has an Oyster Card<br>
   And Michael travels from Asterisk to Barbican<br>
   And Michael travels from Barbican to Balham<br>
   Then Michael will be charged £3.00 for his journey<br>
   And a further £3.00 for his second journey<br>
 
-Scenario: Multiple journeys reaching daily cap<br>
+**Scenario:** Multiple journeys reaching daily cap<br>
   Given Michael has an Oyster Card<br>
   And Michael travels from Asterisk to Barbican<br>
   And Michael travels from Barbican to Balham<br>
@@ -79,7 +79,7 @@ Take into account for return journies, the new fares are as described below:
 * A month fare includes all single and return journies made within a single month.
         
         
-Scenario: Multiple Return Journeys<br>
+**Scenario:** Multiple Return Journeys<br>
   Given Michael has an Oyster Card<br>
   And Michael travels from Asterisk to Barbican<br>
   And Michael travels from Barbican to Asterisk within the same day<br>
