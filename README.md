@@ -12,3 +12,6 @@ Collection of Kata Descriptions
 ## Algorithms and Tools Katas
 - BinaryChop Kata, from [KodeKata.com](www.codekata.com)
 - HowBigHowFast kata, from [KodeKata.com](www.codekata.com)
+
+## TDD Kata
+- KataPotter, from [codingdojo.org](http://codingdojo.org/)
