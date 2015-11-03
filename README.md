@@ -15,6 +15,7 @@ I've tried my best to put the source next to each Kata in the line below. If you
 - Supermarket Kata, from [KodeKata.com](www.codekata.com)
 - Vending Machine, from [Amirrajan's Blog](http://amirrajan.net/Blog/)
 - Mars Rover, from [Amirrajan's Blog](http://amirrajan.net/Blog/)
+- BlogWebApp, from [Colleen Kirtland TDD Problems Blog](https://sites.google.com/site/tddproblems/all-problems-1)
 
 ## Algorithms and Tools Katas
 - BinaryChop Kata, from [KodeKata.com](www.codekata.com)
@@ -23,3 +24,4 @@ I've tried my best to put the source next to each Kata in the line below. If you
 
 ## TDD Kata
 - KataPotter, from [codingdojo.org](http://codingdojo.org/)
+- PrimeFactors, from [Amirrajan's Blog](http://amirrajan.net/Blog/)
