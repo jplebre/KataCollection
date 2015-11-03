@@ -13,6 +13,9 @@ I've tried my best to put the source next to each Kata in the line below. If you
 - Video Club Rental, from Jason Gorman's [TDD workshops](http://www.codemanship.co.uk/)
 - TransferSmart, a money transfer system (from unknown)
 - Supermarket Kata, from [KodeKata.com](www.codekata.com)
+- Vending Machine, from [Amirrajan's Blog](http://amirrajan.net/Blog/)
+- Mars Rover, from [Amirrajan's Blog](http://amirrajan.net/Blog/)
+- 
 
 ## Algorithms and Tools Katas
 - BinaryChop Kata, from [KodeKata.com](www.codekata.com)
