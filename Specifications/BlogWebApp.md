@@ -11,7 +11,7 @@
 * Any user can search for tags, recent entries, and blogs with certain tags.
 
 ## Scenarios:
-Try to develop your own blog software featuring:
+Try to develop your own blog software featuring:<br>
 **Scenario:** user A posts a new entry<br>
   Given user A posts a new entry<br>
   Then user A can see user A entry<br>
