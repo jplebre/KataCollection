@@ -12,77 +12,77 @@
 
 ## Scenarios:
 Try to develop your own blog software featuring:
-**Scenario:** user A posts a new entry
-  Given user A posts a new entry
-  Then user A can see user A entry
-  And user B can see user A entry
+**Scenario:** user A posts a new entry<br>
+  Given user A posts a new entry<br>
+  Then user A can see user A entry<br>
+  And user B can see user A entry<br>
 
-**Scenario:** user A deletes a new entry
-  Given user A posts a new entry
-  And user A deletes the entry
-  Then entry cannot be found in the database
+**Scenario:** user A deletes a new entry<br>
+  Given user A posts a new entry<br>
+  And user A deletes the entry<br>
+  Then entry cannot be found in the database<br>
   
-**Scenario:** user B deletes a new entry
-  Given user A posts a new entry
-  And user B edits the entry
-  Then warning is issued and deletion is halted
+**Scenario:** user B deletes a new entry<br>
+  Given user A posts a new entry<br>
+  And user B edits the entry<br>
+  Then warning is issued and deletion is halted<br>
   
-**Scenario:** user A edits a new entry
-  Given user A posts a new entry
-  And user A edits the entry
-  Then user A can see user A entry
-  And user B can see user A entry
+**Scenario:** user A edits a new entry<br>
+  Given user A posts a new entry<br>
+  And user A edits the entry<br>
+  Then user A can see user A entry<br>
+  And user B can see user A entry<br>
   
-**Scenario:** user B edits a new entry
-  Given user A posts a new entry
-  And user B edits the entry
-  Then warning is issued and deletion is halted
+**Scenario:** user B edits a new entry<br>
+  Given user A posts a new entry<br>
+  And user B edits the entry<br>
+  Then warning is issued and deletion is halted<br>
   
-**Scenario:** user B search for user A 10 most recent entries
-  Given user A posts a new entry
-  And user A posts a new entry
-  And user A posts a new entry
-  And user A posts a new entry
-  And user A posts a new entry
-  And user B searches for the last 5 entries
-  Then user B can see user A last 5 entries titles
+**Scenario:** user B search for user A 10 most recent entries<br>
+  Given user A posts a new entry<br>
+  And user A posts a new entry<br>
+  And user A posts a new entry<br>
+  And user A posts a new entry<br>
+  And user A posts a new entry<br>
+  And user B searches for the last 5 entries<br>
+  Then user B can see user A last 5 entries titles<br>
   
-**Scenario:** user A tags a new entry
-  Given user A posts a new entry
-  And user A tags the entry
-  Then user A can see the tag on the entry
-  And user B can see the tag on the entry
+**Scenario:** user A tags a new entry<br>
+  Given user A posts a new entry<br>
+  And user A tags the entry<br>
+  Then user A can see the tag on the entry<br>
+  And user B can see the tag on the entry<br>
   
-**Scenario:** user B attempts to tag user A entry
-  Given user A posts a new entry
-  And user B tags the entry
-  Then warning is issued and tag is not added
+**Scenario:** user B attempts to tag user A entry<br>
+  Given user A posts a new entry<br>
+  And user B tags the entry<br>
+  Then warning is issued and tag is not added<br>
   
-**Scenario:** user A searches for all tags
-  Given user A posts a new entry
-  And adds a new tag to the entry
-  And user A posts a new entry
-  And adds a new tag to the entry
-  And user A posts a new entry
-  And adds a new tag to the entry
-  And user A posts a new entry
-  And adds a new tag to the entry
-  And user A posts a new entry
-  And adds a new tag to the entry
-  Then user A can see all the tags in his blog
+**Scenario:** user A searches for all tags<br>
+  Given user A posts a new entry<br>
+  And adds a new tag to the entry<br>
+  And user A posts a new entry<br>
+  And adds a new tag to the entry<br>
+  And user A posts a new entry<br>
+  And adds a new tag to the entry<br>
+  And user A posts a new entry<br>
+  And adds a new tag to the entry<br>
+  And user A posts a new entry<br>
+  And adds a new tag to the entry<br>
+  Then user A can see all the tags in his blog<br>
   
-**Scenario:** user B searches for all tags
-  Given user A posts a new entry
-  And adds a new tag to the entry
-  And user A posts a new entry
-  And adds a new tag to the entry
-  And user A posts a new entry
-  And adds a new tag to the entry
-  And user A posts a new entry
-  And adds a new tag to the entry
-  And user A posts a new entry
-  And adds a new tag to the entry
-  Then user B can see all the tags in his blog
+**Scenario:** user B searches for all tags<br>
+  Given user A posts a new entry<br>
+  And adds a new tag to the entry<br>
+  And user A posts a new entry<br>
+  And adds a new tag to the entry<br>
+  And user A posts a new entry<br>
+  And adds a new tag to the entry<br>
+  And user A posts a new entry<br>
+  And adds a new tag to the entry<br>
+  And user A posts a new entry<br>
+  And adds a new tag to the entry<br>
+  Then user B can see all the tags in his blog<br>
 
   
 * Post new entry
