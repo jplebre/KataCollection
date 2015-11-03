@@ -15,11 +15,11 @@ I've tried my best to put the source next to each Kata in the line below. If you
 - Supermarket Kata, from [KodeKata.com](www.codekata.com)
 - Vending Machine, from [Amirrajan's Blog](http://amirrajan.net/Blog/)
 - Mars Rover, from [Amirrajan's Blog](http://amirrajan.net/Blog/)
-- 
 
 ## Algorithms and Tools Katas
 - BinaryChop Kata, from [KodeKata.com](www.codekata.com)
 - HowBigHowFast kata, from [KodeKata.com](www.codekata.com)
+- Conway's Game of Life, from [Amirrajan's Blog](http://amirrajan.net/Blog/) and [Wikipedia](https://en.wikipedia.org/wiki/Conway%27s_Game_of_Life) 
 
 ## TDD Kata
 - KataPotter, from [codingdojo.org](http://codingdojo.org/)
