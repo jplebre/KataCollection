@@ -37,7 +37,7 @@ Damaged is related to tower and jelly level, as well as their colour.
   |                | Level 2: 1 points damage     | Level 2: 5-9 points damage    |
   |                | Level 3: 2 points damage     | Level 3: 9-12 points damage   |
   |                | Level 4: 3 points damage     | Level 4: 12-15 points damage  |
-  ￼| Blue Red Tower | Level 1: 2 points damage     | Level 1: 2 points damage      |
+  | Blue Red Tower | Level 1: 2 points damage     | Level 1: 2 points damage      |
   |                | Level 2: 2-4 points damage   | Level 2: 2-4 points damage    |
   |                | Level 3: 4-6 points damage   | Level 3: 4-6 points damage    |
   |                | Level 4: 6-8 points damage   | Level 4: 6-8 points damage    |
