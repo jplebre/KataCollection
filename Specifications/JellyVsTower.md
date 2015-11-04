@@ -9,19 +9,21 @@ Damaged is related to tower and jelly level, as well as their colour.
 * Ensure jellies and towers can be of different colours: **Blue**, **Red**, **RedBlue**.
 * Jellies and Towers should have a health and be alive or dead.
 * Provide a way to identify each individual tower and Jelly.
+
   ```
   Blue Red Tower 1 : Level 1 
   Blue Tower 1 : Level 2 
   Blue Tower 2 : Level 4
   Red Tower 1 : Level 1
   ```
+  
 * Implement a game script that creates towers and Jellies and outputs something like:
-```
-Blue Red Tower attacks Jelly for 1 point damage. 
-Blue Tower attacks Jelly for 2 points damage. 
-Blue Tower attacks Jelly for 2 points damage. 
-Red Tower attacks Jelly for 2 points damage.
-```
+  ```
+  Blue Red Tower attacks Jelly for 1 point damage. 
+  Blue Tower attacks Jelly for 2 points damage. 
+  Blue Tower attacks Jelly for 2 points damage. 
+  Red Tower attacks Jelly for 2 points damage.
+  ```
 
 * Make sure the following rules apply:<br>
 
