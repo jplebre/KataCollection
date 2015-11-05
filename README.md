@@ -16,6 +16,7 @@ I've tried my best to put the source next to each Kata in the line below. If you
 - VendingMachine Kata, from [Amirrajan's Blog](http://amirrajan.net/Blog/)
 - MarsRover Kata, from [Amirrajan's Blog](http://amirrajan.net/Blog/)
 - BlogWebApp Kata, from [Colleen Kirtland TDD Problems Blog](https://sites.google.com/site/tddproblems/all-problems-1)
+- Towers vs Jelly, inspired on a mobile game.
 
 ## Algorithms and Tools Katas
 - BinaryChop Kata - a binary search routine - from [KodeKata.com](www.codekata.com)
