@@ -1,3 +1,4 @@
+```
 Exercise
 Implement a console-based social networking application (similar to Twitter) satisfying the scenarios below.
 Scenarios
@@ -40,3 +41,4 @@ Don't worry about handling any exceptions or invalid commands. Assume that the u
 Don’t bother making it work over a network or across processes. It can all be done in memory, assuming that users will all use the same terminal.
 Non-existing users should be created as they post their first message. Application should not start with a pre-defined list of users.
 Provide instructions on how to run the application.
+```
