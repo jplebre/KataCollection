@@ -10,10 +10,10 @@ Implement a system for a contactless travel card for the London underground.
 |Zone A         |     Zone B     |
 |---------------|----------------|
 |Asterisk       |     Bison      |
-|Antelope       |     Bugel      |
+|Amersham       |     Bugel      |
 |Aldgate        |     Balham     | 
 |Angel          |     Bullhead   |
-|Aldgate East   |     Barbican   |
+|Anerley        |     Barbican   |
 
 * Travelling within zone B is more expensive than travelling in Zone A.
 * The price of zone B is inclusive of travelling within zone A.
@@ -23,7 +23,7 @@ Implement a system for a contactless travel card for the London underground.
 |  Zone  |  Single  |   Day   |    Week    |     Month   |
 |--------|----------|---------|------------|-------------|
 | ZoneA  |  £2.50   |  £7.00  |   £40.00   |    £145.00  |
-| ZoneB  |  £3.00   |  £8.00  |   £47.00   |    £165.50  |
+| ZoneB  |  £3.00   |  £8.00  |   £47.00   |    £165.00  |
 
 * A Single is a journey from one station to another.
 * A Day fare includes all single journies made within a single day.
