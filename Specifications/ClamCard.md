@@ -34,32 +34,43 @@ Implement a system for a contactless travel card for the London underground.
 # USE CASE SCENARIOS:
 
 **Scenario:** One-Way Zone 1 Journey<br>
-  Given Michael has an Oyster Card<br>
-  And Michael travels from Asterisk to Aldgate<br>
-  Then Michael will be charged £2.50 for his journey<br>
+Given Michael has an Oyster Card<br>
+And Michael travels from Asterisk to Aldgate<br>
+Then Michael will be charged £2.50 for his first journey<br>
 
 **Scenario:** One-Way Zone 1 to Zone 2 Journey<br>
-  Given Michael has an Oyster Card<br>
-  And Michael travels from Asterisk to Barbican<br>
-  Then Michael will be charged £3.00 for his journey<br>
+Given Michael has an Oyster Card<br>
+And Michael travels from Asterisk to Barbican<br>
+Then Michael will be charged £3.00 for his first journey<br>
 
 **Scenario:** Multiple journeys<br>
-  Given Michael has an Oyster Card<br>
-  And Michael travels from Asterisk to Barbican<br>
-  And Michael travels from Barbican to Balham<br>
-  Then Michael will be charged £3.00 for his journey<br>
-  And a further £3.00 for his second journey<br>
+Given Michael has an Oyster Card<br>
+And Michael travels from Asterisk to Aldgate<br>
+And Michael travels from Asterisk to Balham<br>
+Then Michael will be charged £2.50 for his first journey<br>
+And a further £3.00 for his second journey<br>
 
-**Scenario:** Multiple journeys reaching daily cap<br>
-  Given Michael has an Oyster Card<br>
-  And Michael travels from Asterisk to Barbican<br>
-  And Michael travels from Barbican to Balham<br>
-  And Michael travels from Balham to Bison<br>
-  And Michael travels from Bison to Asterisk<br>
-  Then Michael will be charged £3.00 for his journey<br>
-  And a further £3.00 for his second journey<br>
-  And a further £2 for his third journey<br>
-  And a further £0.00 for any additional journies within the day<br>
+**Scenario:** Multiple Journeys including Zone B reaching daily cap<br>
+Given Michael has an Oyster Card<br>
+And Michael travels from Asterisk to Barbican<br>
+And Michael travels from Barbican to Balham<br>
+And Michael travels from Balham to Bison<br>
+And Michael travels from Bison to Asterisk<br>
+Then Michael will be charged £3.00 for his first journey<br>
+And a further £3.00 for his second journey<br>
+And a further £2 for his third journey<br>
+And a further £0.00 for his fourth journey<br>
+
+**Scenario:** Multiple Journeys Zone A reaching daily cap<br>
+Given Michael has an Oyster Card<br>
+And Michael travels from Asterisk to Aldgate<br>
+And Michael travels from Aldgate to Angel<br>
+And Michael travels from Angel to Antelope<br>
+And Michael travels from Antelope to Asterisk<br>
+Then Michael will be charged £2.50 for his first journey<br>
+And a further £2.50 for his second journey<br>
+And a further £2 for his third journey<br>
+And a further £0.00 for his fourth journey<br>
 
 
 # BONUS Scenario: 
@@ -80,12 +91,12 @@ Take into account for return journies, the new fares are as described below:
         
         
 **Scenario:** Multiple Return Journeys<br>
-  Given Michael has an Oyster Card<br>
-  And Michael travels from Asterisk to Barbican<br>
-  And Michael travels from Barbican to Asterisk within the same day<br>
-  And Michael travels from Asterisk to Balham within the same day<br>
-  And Michael travels from Balham to Asterisk within the same day<br>
-  Then Michael will be charged £3.00 for his journey<br>
-  And a further £2.50 for his second journey<br>
-  And a further £3.00 for his third journey<br>
-  And a further £1.00 for his final journey<br>
+Given Michael has an Oyster Card<br>
+And Michael travels from Asterisk to Barbican<br>
+And Michael travels from Barbican to Asterisk<br>
+And Michael travels from Asterisk to Balham<br>
+And Michael travels from Balham to Asterisk<br>
+Then Michael will be charged £3.00 for his first journey<br>
+And a further £1.50 for his second journey<br>
+And a further £3.00 for his third journey<br>
+And a further £1.00 for his fourth journey<br>
