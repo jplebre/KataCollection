@@ -14,13 +14,13 @@
 * Administrator-level users can 
 
 ## Use-case Scenarios
-**Scenarios:** User registring to videoclub<br>
+**Scenario:** User registring to videoclub<br>
   Given user A enters name, age, email address<br>
   And user A is more than 18 years old<br>
   Then library registers an entry for user A<br>
   And sends user A a welcome email<br>
 
-**Scenarios:** User donates a copy of a non-existing title to the library<br>
+**Scenario:** User donates a copy of a non-existing title to the library<br>
   Given user A is a member of the videoclub<br>
   And user A donates a new title<br>
   And enters title, director and year of release<br>
