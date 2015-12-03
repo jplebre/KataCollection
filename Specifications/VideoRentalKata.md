@@ -58,7 +58,7 @@
   And user A returns title<br>
   Then library sends an email to user with a warning<br>
   
-**Scenario:** Returning a rental copy<br>
+**Scenario:** Failed to return a rental copy<br>
   Given user A performs a simple rental<br>
   And 16 days later copy is still not returned<br>
   Then library sends an email to the user A<br>
