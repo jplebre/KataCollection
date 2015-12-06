@@ -26,3 +26,4 @@ I've tried my best to put the source next to each Kata in the line below. If you
 ## TDD Kata
 - KataPotter - calculating discount for bestselling book franchises - from [codingdojo.org](http://codingdojo.org/)
 - PrimeFactors Kata, from [Amirrajan's Blog](http://amirrajan.net/Blog/)
+- SuperMarket simplified version kata, from [7Digital Kata Collection](https://github.com/7digital/kata-checkout)
