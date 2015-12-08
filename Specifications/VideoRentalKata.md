@@ -1,7 +1,7 @@
 # VideoClub Rental
 ## Specifications
 * Users have their name and email stored.
-* Users can specify a wishlist. Users should be notified when title becomes available.
+* Users can specify a wishlist. Users should be notified when their wished title becomes available.
 * Wishlist is non-case sensitive.
 * Users get charged per rental title £2.5.
 * Rentals have a return by date of 15 days, starting on the rental day.
@@ -10,7 +10,7 @@
 * Users can donate videos to the library.
 * Users get priority points when donating videos (10 points per title).
 * Library records must include Title, Director, Release year, number of copies.
-* Administrator-level users can create or detele new users
+* Administrator-level users can create or delete new users
 * Administrator-level users can create a new newsletter
 
 ## Use-case Scenarios
