@@ -1,4 +1,8 @@
 # VideoClub Rental
+
+This is a big one. It feels fairly simple but it can grow very quickly.
+Based it of an exercise presented by Jason Gorman on his fabulous TDD workshops and built upon it to add some more content.
+
 ## Specifications
 * Users have their name and email stored.
 * Users can specify a wishlist. Users should be notified when their wished title becomes available.
