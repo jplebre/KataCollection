@@ -8,7 +8,6 @@ I've tried my best to put the source next to each Kata in the line below. If you
 
 ## Object Oriented katas
 - ClamCard Kata - do your own OysterCard system - from [Amiralizazabi](https://github.com/amiralibazazi) available [here](https://gist.github.com/amiralibazazi/a9d57d40886604887d8e#file-clamcardkata-txt-L70);
-- FizzBuzz - a simple social game;
 - SocialNetworkExercise, from [Franziskas](https://github.com/franziskas) available [here](https://github.com/franziskas/social-network-exercise)
 - VideoClubRental Kata, from Jason Gorman's [TDD workshops](http://www.codemanship.co.uk/)
 - TransferSmart - a money transfer system.
@@ -24,6 +23,10 @@ I've tried my best to put the source next to each Kata in the line below. If you
 - Conway's Game of Life Kata, from [Amirrajan's Blog](http://amirrajan.net/Blog/) and [Wikipedia](https://en.wikipedia.org/wiki/Conway%27s_Game_of_Life) 
 
 ## TDD Kata
-- KataPotter - calculating discount for bestselling book franchises - from [codingdojo.org](http://codingdojo.org/)
+- FizzBuzz - a simple social game;
+- Fibonnacci Sequence Generator - create a program that outputs the Fibonnacci sequence;
 - PrimeFactors Kata, from [Amirrajan's Blog](http://amirrajan.net/Blog/)
+- KataPotter - calculating discount for bestselling book franchises - from [codingdojo.org](http://codingdojo.org/)
 - SuperMarket simplified version kata, from [7Digital Kata Collection](https://github.com/7digital/kata-checkout)
+
+
