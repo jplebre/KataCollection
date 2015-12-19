@@ -29,4 +29,5 @@ I've tried my best to put the source next to each Kata in the line below. If you
 - KataPotter - calculating discount for bestselling book franchises - from [codingdojo.org](http://codingdojo.org/)
 - SuperMarket simplified version kata, from [7Digital Kata Collection](https://github.com/7digital/kata-checkout)
 
-
+## Multi-Thread Kata
+- Multi-Threaded Santa Challenge - a brilliant funny competition by [Jason Gorman](http://codemanship.co.uk/parlezuml/blog/?postid=1337)
