@@ -1,6 +1,7 @@
 The Multi-threaded Santa TDD Challenge
 
 PLEASE GO TO [CODEMANSHIP](http://codemanship.co.uk/parlezuml/blog/?postid=1337) FOR THE ORIGINAL ARTICLE.
+
 If you've hunted on the Interwebs for TDD katas, you will no doubt have noticed that they tend to be based on relatively straightforward problems. In particular, there are no - as far as I'm aware - TDD katas that set more challenging high-volume, multi-threaded, multi-process problems to solve.
 
 In the spirit of Christmas - if you celebrate such a thing (and this year, I won't be) - I set some students just such a problem, which I'm calling the Multi-threaded Santa TDD Challenge.
@@ -68,7 +69,9 @@ One worker process (e.g. wrapping) signals an intention to reassign one of its e
 
 There is only one Santa, and only one sleigh! 
 
-Okay, here's your bottleneck. There can only be one worker thread in the Delivering process, and the delivery round takes a fixed amount of time each time the sleigh goes out, regardless of how many presents or elves are assigned to Delivery. It takes Santa 50ms to make one round of deliveries. At the end of that time, all the presents in the sleigh (i.e., on the Loaded queue) are delivered.
+Okay, here's your bottleneck. There can only be one worker thread in the Delivering process, and the delivery round takes a fixed amount of time each time the sleigh goes out, regardless of how many presents or elves are assigned to Delivery. It takes Santa 500ms to make one round of deliveries. i.e. delivering all the presents on Santa's sleigh - no matter how many there are - incurs a time delay of 500ms. At the end of that time, all the presents in the sleigh (i.e., on the Loaded queue) are delivered. This could, for example, be achieved with a Sleigh class that implements the time delay in a deliver() method.
+
+Be advised that no presents can be loaded for delivery while Santa's sleigh is out on a round. This is your bottleneck! For 500ms (at least), the elves doing the loading will be idle. So you may want to reassign them to making or wrapping. But... hmmm... how long will that take?
 
 How to score?
 
