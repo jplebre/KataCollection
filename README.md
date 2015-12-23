@@ -11,7 +11,6 @@ I've tried my best to put the source next to each Kata in the line below. If you
 - SocialNetworkExercise, from [Franziskas](https://github.com/franziskas) available [here](https://github.com/franziskas/social-network-exercise)
 - VideoClubRental Kata, from Jason Gorman's [TDD workshops](http://www.codemanship.co.uk/)
 - TransferSmart - a money transfer system.
-- Supermarket Kata, from [KodeKata.com](www.codekata.com)
 - VendingMachine Kata, from [Amirrajan's Blog](http://amirrajan.net/Blog/)
 - MarsRover Kata, from [Amirrajan's Blog](http://amirrajan.net/Blog/)
 - BlogWebApp Kata, from [Colleen Kirtland TDD Problems Blog](https://sites.google.com/site/tddproblems/all-problems-1)
@@ -27,7 +26,7 @@ I've tried my best to put the source next to each Kata in the line below. If you
 - Fibonnacci Sequence Generator - create a program that outputs the Fibonnacci sequence;
 - PrimeFactors Kata, from [Amirrajan's Blog](http://amirrajan.net/Blog/)
 - KataPotter - calculating discount for bestselling book franchises - from [codingdojo.org](http://codingdojo.org/)
-- SuperMarket simplified version kata, from [7Digital Kata Collection](https://github.com/7digital/kata-checkout)
+- SuperMarket simplified version kata, from [7Digital Kata Collection](https://github.com/7digital/kata-checkout) adapted from [Dave Thomans Kode Kata](http://codekata.com/kata/kata09-back-to-the-checkout)
 
 ## Multi-Thread Kata
 - Multi-Threaded Santa Challenge - a brilliant funny competition by [Jason Gorman](http://codemanship.co.uk/parlezuml/blog/?postid=1337)
