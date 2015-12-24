@@ -1,3 +1,5 @@
+# Kata Potter
+
 If you want to try this Kata for yourself or at your dojo meeting, read the problem description and see if the Kata appeals to you. The rest is commentary and helpful clues for if you get stuck solving it. I would recommend trying the Kata for yourself before reading too much of it.
 Problem Description
 
@@ -10,15 +12,16 @@ Note that if you buy, say, four books, of which 3 are different titles, you get 
 Potter mania is sweeping the country and parents of teenagers everywhere are queueing up with shopping baskets overflowing with Potter books. Your mission is to write a piece of code to calculate the price of any conceivable shopping basket, giving as big a discount as possible.
 
 For example, how much does this basket of books cost?
-
+```
   2 copies of the first book
   2 copies of the second book
   2 copies of the third book
   1 copy of the fourth book
   1 copy of the fifth book
 (answer: 51.20 EUR)
+```
 
-Clues
+## Clues
 
 You’ll find that this Kata is easy at the start. You can get going with tests for baskets of 0 books, 1 book, 2 identical books, 2 different books… and it is not too difficult to work in small steps and gradually introduce complexity.
 
@@ -31,6 +34,7 @@ Suggested Test Cases
 
 (Originally posted at xp-france.net/cgi-bin/wiki.pl?KataPotter)
 
+```Ruby
 def testBasics
   assert_equal(0, price([]))
   assert_equal(8, price([0]))
@@ -65,3 +69,4 @@ def testEdgeCases
            3, 3, 3, 3, 3, 
            4, 4, 4, 4]))
 end
+```
