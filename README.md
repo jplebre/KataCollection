@@ -7,14 +7,14 @@ Hopefully they'll be useful to you.
 I've tried my best to put the source next to each Kata in the line below. If you feel I'm breaching some copyright please let me know and I'll remove it ASAP.
 
 ## Object Oriented katas
-- ClamCard Kata - do your own OysterCard system - from [Amiralizazabi](https://github.com/amiralibazazi) available [here](https://gist.github.com/amiralibazazi/a9d57d40886604887d8e#file-clamcardkata-txt-L70);
-- SocialNetworkExercise, from [Franziskas](https://github.com/franziskas) available [here](https://github.com/franziskas/social-network-exercise)
-- VideoClubRental Kata, from Jason Gorman's [TDD workshops](http://www.codemanship.co.uk/)
-- TransferSmart - a money transfer system.
-- VendingMachine Kata, from [Amirrajan's Blog](http://amirrajan.net/Blog/)
-- MarsRover Kata, from [Amirrajan's Blog](http://amirrajan.net/Blog/)
-- BlogWebApp Kata, from [Colleen Kirtland TDD Problems Blog](https://sites.google.com/site/tddproblems/all-problems-1)
-- Towers vs Jelly, inspired on a mobile game.
+- [ClamCard Kata](https://github.com/jplebre/KataCollection/blob/master/Specifications/ClamCard.md) - do your own OysterCard system - from [Amiralizazabi](https://github.com/amiralibazazi) available [here](https://gist.github.com/amiralibazazi/a9d57d40886604887d8e#file-clamcardkata-txt-L70);
+- [SocialNetworkExercise](https://github.com/jplebre/KataCollection/blob/master/Specifications/SocialNetwork.md), from [Franziskas](https://github.com/franziskas) available [here](https://github.com/franziskas/social-network-exercise)
+- [VideoClubRental Kata](https://github.com/jplebre/KataCollection/blob/master/Specifications/VideoClubRental.md), from Jason Gorman's [TDD workshops](http://www.codemanship.co.uk/)
+- [TransferSmart](https://github.com/jplebre/KataCollection/blob/master/Specifications/TransferSmart.md) - a money transfer system.
+- [VendingMachine Kata](https://github.com/jplebre/KataCollection/blob/master/Specifications/VendingMachine.md), from [Amirrajan's Blog](http://amirrajan.net/Blog/)
+- [MarsRover Kata](https://github.com/jplebre/KataCollection/blob/master/Specifications/MarsRover.md), from [Amirrajan's Blog](http://amirrajan.net/Blog/)
+- [BlogWebApp Kata](https://github.com/jplebre/KataCollection/blob/master/Specifications/BlogWebApp.md), from [Colleen Kirtland TDD Problems Blog](https://sites.google.com/site/tddproblems/all-problems-1)
+- [Towers vs Jelly](https://github.com/jplebre/KataCollection/blob/master/Specifications/JellyVsTower.md), inspired on a mobile game.
 
 ## Algorithms and Tools Katas
 - BinaryChop Kata - a binary search routine - from [KodeKata.com](www.codekata.com)
