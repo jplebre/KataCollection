@@ -15,18 +15,20 @@ I've tried my best to put the source next to each Kata in the line below. If you
 - [MarsRover Kata](https://github.com/jplebre/KataCollection/blob/master/Specifications/MarsRover.md), from [Amirrajan's Blog](http://amirrajan.net/Blog/)
 - [BlogWebApp Kata](https://github.com/jplebre/KataCollection/blob/master/Specifications/BlogWebApp.md), from [Colleen Kirtland TDD Problems Blog](https://sites.google.com/site/tddproblems/all-problems-1)
 - [Towers vs Jelly](https://github.com/jplebre/KataCollection/blob/master/Specifications/JellyVsTower.md), inspired on a mobile game.
+- [Roll your own Unit Test Framework](https://github.com/jplebre/KataCollection/blob/master/Specifications/RollYourOwnUnitTestFramework.md), from [Jason Gorman's SC2016 backlog](http://codemanship.co.uk/parlezuml/blog/?postid=1346)
+- [Roll your own Mock Object framework](https://github.com/jplebre/KataCollection/blob/master/Specifications/RollYourOwnMockObjectFramework.md), from [Jason Gorman's SC2016 backlog](http://codemanship.co.uk/parlezuml/blog/?postid=1355) 
 
 ## Algorithms and Tools Katas
-- BinaryChop Kata - a binary search routine - from [KodeKata.com](www.codekata.com)
-- HowBigHowFast Kata - calculating size and time requirements to process information - from [KodeKata.com](www.codekata.com)
-- Conway's Game of Life Kata, from [Amirrajan's Blog](http://amirrajan.net/Blog/) and [Wikipedia](https://en.wikipedia.org/wiki/Conway%27s_Game_of_Life) 
+- [BinaryChop Kata](https://github.com/jplebre/KataCollection/blob/master/Specifications/BinaryChop.md) - a binary search routine - from [KodeKata.com](www.codekata.com)
+- [HowBigHowFast Kata](https://github.com/jplebre/KataCollection/blob/master/Specifications/HowBigHowFast.md) - calculating size and time requirements to process information - from [KodeKata.com](www.codekata.com)
+- [Conway's Game of Life](https://github.com/jplebre/KataCollection/blob/master/Specifications/ConwayGameOfLife.md) Kata, from [Amirrajan's Blog](http://amirrajan.net/Blog/) and [Wikipedia](https://en.wikipedia.org/wiki/Conway%27s_Game_of_Life) 
 
 ## TDD Kata
-- FizzBuzz - a simple social game;
-- Fibonnacci Sequence Generator - create a program that outputs the Fibonnacci sequence;
-- PrimeFactors Kata, from [Amirrajan's Blog](http://amirrajan.net/Blog/)
-- KataPotter - calculating discount for bestselling book franchises - from [codingdojo.org](http://codingdojo.org/)
-- SuperMarket simplified version kata, from [7Digital Kata Collection](https://github.com/7digital/kata-checkout) adapted from [Dave Thomans Kode Kata](http://codekata.com/kata/kata09-back-to-the-checkout)
+- [FizzBuzz](https://github.com/jplebre/KataCollection/blob/master/Specifications/FizzBuzz.md) - a simple social game;
+- [Fibonnacci Sequence Generator](https://github.com/jplebre/KataCollection/blob/master/Specifications/FibonacciSequence.md) - create a program that outputs the Fibonnacci sequence;
+- [PrimeFactors](https://github.com/jplebre/KataCollection/blob/master/Specifications/PrimeFactors.md) Kata, from [Amirrajan's Blog](http://amirrajan.net/Blog/)
+- [KataPotter](https://github.com/jplebre/KataCollection/blob/master/Specifications/KataPotter.md) - calculating discount for bestselling book franchises - from [codingdojo.org](http://codingdojo.org/)
+- [SuperMarket](https://github.com/jplebre/KataCollection/blob/master/Specifications/SupermaketSimplified.md) simplified version kata, from [7Digital Kata Collection](https://github.com/7digital/kata-checkout) adapted from [Dave Thomans Kode Kata](http://codekata.com/kata/kata09-back-to-the-checkout)
 
 ## Multi-Thread Kata
-- Multi-Threaded Santa Challenge - a brilliant funny competition by [Jason Gorman](http://codemanship.co.uk/parlezuml/blog/?postid=1337)
+- [Multi-Threaded Santa Challenge](https://github.com/jplebre/KataCollection/blob/master/Specifications/MultiThreadedSanta.md) - a brilliant funny competition by [Jason Gorman](http://codemanship.co.uk/parlezuml/blog/?postid=1337)
