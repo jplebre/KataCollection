@@ -18,29 +18,32 @@ Based it of an exercise presented by Jason Gorman on his fabulous TDD workshops 
 * Administrator-level users can create a new newsletter
 
 ## Use-case Scenarios
-**Scenario:** User registring to videoclub<br>
-  Given user A enters name, age, email address<br>
-  And user A is more than 18 years old<br>
-  Then library registers an entry for user A<br>
-  And sends user A a welcome email<br>
+
+**Scenario:** User registring to videoclub as an adult<br>
+  Given User A registers with name: "Sam", age: 18, email: "sam@aol.com"<br>
+  When library registers an entry for User A<br>
+  Then library sends User A a welcome email<br>
+
+**Scenario:** User cannot register to videoclub as a minor<br>
+  Given User A registers with name: "Sam", age: 17, email: "sam@aol.com"<br>
+  When library registers an entry for User A<br>
+  Then library does not send a welcome email<br>
 
 **Scenario:** User donates a copy of a non-existing title to the library<br>
-  Given user A is a member of the videoclub<br>
-  And user A donates a new title<br>
-  And enters title, director and year of release<br>
-  And user B has a wishlist with title on it<br>
-  Then the library creates a new entry for title<br>
-  And user A receives 10 loyalty points<br>
-  And user B receives a notification<br>
-  
-**Scenarios:** User donates another copy of an existing title to the library<br>
-  Given user A is a member of the videoclub<br>
-  And user A donates a new video<br>
-  And enters title, director and year of release<br>
-  And user B has a wishlist with title on it<br>
-  Then the library increases the count for title by 1<br>
-  And user A receives 10 loyalty points<br>
-  And user B receives a notification<br>
+  Given "Sam" and "Pawel" are members of the VideoClub<br>
+  And "Sam" donates a new title with title: "Star Wars VII", director: "JJ Abrahams" and age: "2015"<br>
+  And "Pawel" has a wishlist with title: "Star Wars VII" on it<br>
+  Then the library creates a new entry for the title with count 1<br>
+  And "Sam" receives 10 loyalty points<br>
+  And "Pawel" receives a notification that title: "Star Wars VII" is available<br>
+
+**Scenario:** User donates a copy of an existing title to the library<br>
+  Given "Sam" and "Pawel" are members of the VideoClub<br>
+  And "Sam" donates a new title with title: "Star Wars VII", director: "JJ Abrahams" and age: "2015"<br>
+  And "Pawel" has a wishlist with title: "Star Wars VII" on it<br>
+  Then the library increases the count for title: "Star Wars VII" by 1<br>
+  And "Sam" receives 10 loyalty points<br>
+  And "Pawel" receives a notification that title: "Star Wars VII" is available<br>
 
 **Scenario:** user A performs a simple rental<br>
   Given user A is a member of the videoclub<br>
