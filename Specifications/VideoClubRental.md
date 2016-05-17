@@ -20,12 +20,12 @@ Based it of an exercise presented by Jason Gorman on his fabulous TDD workshops 
 ## Use-case Scenarios
 
 **Scenario:** User registring to videoclub as an adult<br>
-  Given User A registers with name: "Sam", age: 18, email: "sam@aol.com"<br>
+  Given User A registers with name: "Sam", age: 18, email: "sam@brfaz12345.com"<br>
   When library registers an entry for User A<br>
   Then library sends User A a welcome email<br>
 
 **Scenario:** User cannot register to videoclub as a minor<br>
-  Given User A registers with name: "Sam", age: 17, email: "sam@aol.com"<br>
+  Given User A registers with name: "Sam", age: 17, email: "sam@brfaz12345.com"<br>
   When library registers an entry for User A<br>
   Then library does not send a welcome email<br>
 
