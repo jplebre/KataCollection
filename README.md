@@ -1,5 +1,5 @@
 # KataCollection
-Collection of Kata Descriptions.
+Collection of Kata Descriptions.  
 Disclaimer: None of these are mine. Taken from several git repos and blog posts or books. I aim to rewrite them into exercises as I work with them and as I do katas at our code dojo sessions or at home to better suit my purpose.
 
 Hopefully they'll be useful to you.
@@ -81,7 +81,7 @@ This is not common only to martial arts. [Malcolm Gladwell](http://www.amazon.co
 
 ## TDD Kata
 - [ArgumentParser](https://github.com/jplebre/KataCollection/blob/master/Specifications/ArgumentParser.md) - creating CLI flags;
-- [BowlingKata](ttps://github.com/jplebre/KataCollection/blob/master/Specifications/BowlingKata.md) - simulate a bowling game;
+- [BowlingKata](https://github.com/jplebre/KataCollection/blob/master/Specifications/BowlingKata.md) - simulate a bowling game;
 - [FizzBuzz](https://github.com/jplebre/KataCollection/blob/master/Specifications/FizzBuzz.md) - a simple social game;
 - [Fibonnacci Sequence Generator](https://github.com/jplebre/KataCollection/blob/master/Specifications/FibonacciSequence.md) - create a program that outputs the Fibonnacci sequence;
 - [KataPotter](https://github.com/jplebre/KataCollection/blob/master/Specifications/KataPotter.md) - calculating discount for bestselling book franchises - from [codingdojo.org](http://codingdojo.org/)
