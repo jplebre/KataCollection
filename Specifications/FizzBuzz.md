@@ -1,5 +1,15 @@
 #FizzBuzz
 
+## The Kata
+* Returns 'Fizz' if 3 is passed
+* Returns 'Buzz' if 5 is passed
+* Returns 'Fizz' if a multiple of 3 is passed
+* Returns 'Buzz' if a multiple of 5 is passed
+* Returns 'Fizz' if the number passed contains 3
+* Returns 'Buzz' if the number passed contains 5
+* Returns '' if 0 is passed
+* Returns the bare number for all other cases
+
 ##Specification
 
 * For multiples of three print 'Fizz' instead of the number.

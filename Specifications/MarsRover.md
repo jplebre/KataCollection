@@ -1,5 +1,15 @@
 # Mars Rover Kata
 
+## Source:
+[http://kata-log.rocks/mars-rover-katamars](http://kata-log.rocks/mars-rover-katamars)
+[https://technologyconversations.com/2014/10/17/java-tutorial-through-katas-mars-rover/](https://technologyconversations.com/2014/10/17/java-tutorial-through-katas-mars-rover/)
+
+
+## The Kata
+
+You’re part of the team that explores Mars by sending remotely controlled vehicles to the surface of the planet. Develop an API that translates the commands sent from earth to instructions that are understood by the rover.
+
+
 ## Specification
 
 - Develop an api that moves a rover around a grid.

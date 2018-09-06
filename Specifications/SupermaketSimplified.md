@@ -2,6 +2,7 @@
 
 ## Specification
 We’re going to see how far we can get in implementing a supermarket checkout that calculates the total price of a number of items.  
+In our store, we’ll use individual letters of the alphabet (A, B, C, and so on).  
 
 - In a normal supermarket, things are identified using **Stock Keeping Units**, or **SKU**s.  
 - The **SKU** for our 4 products are **A**, **B**, **C**, **D**.
@@ -27,6 +28,45 @@ We’re going to see how far we can get in implementing a supermarket checkout t
 - Make sure the design is easy enough to allow for item prices and pricing rule changes in the future.
 - Because pricing rules and items can change frequently, pricing rules should be passed in as a dependency for each transaction.
 
+### Requirement 1
+I want to know the price of an item. These are all the items (there will never be any others)
+```
+Item  Price  
+------------
+A     50      
+B     30     
+C     20
+D     15
+```
+
+### Requirement 2
+Knowing the price was cool. I now want to know the total price of a list of items.
+
+### Requirement 3
+I've decided we should be able to offer bulk discounts. Special prices for multiple purchases.
+The pricing now works something like this:
+
+```
+Item  Price   Offer
+--------------------------
+A     50       3 for 130
+B     30       2 for 45
+C     20
+D     15
+```
+
+### Requirement 4
+It'd be cool if we could add new items. Can we have config or something? 
+It's okay if the special offers are hard coded.
+
+### Requirement 4b
+The special offers can not be hard coded. Why would I have allowed that?
+
+### Requirement 5
+I liked the special offer feature can we also have deals like 2 for the price of 1?
+
+### Requirement 6
+Can the output have sub totals? And a receipt that shows the discount applied?
 
 ## Unit Test Examples:
 Here are the first few tests to help you get started. Will add tests in other languages as I come across them.
@@ -61,4 +101,4 @@ end
 ```
 
 
-_Credits: adapted from Dave Thomas [Kata Nine](http://codekata.pragprog.com/2007/01/kata_nine_back_.html)_
+_Credits: adapted from Dave Thomas [Kata Nine](http://codekata.pragprog.com/2007/01/kata_nine_back_.html)_ and from [7Digital](https://github.com/7digital/kata-checkout)
