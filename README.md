@@ -72,7 +72,7 @@ This is not common only to martial arts. [Malcolm Gladwell](http://www.amazon.co
 
 ## Algorithms and Tools Katas
 - [BinaryChop Kata](https://github.com/jplebre/KataCollection/blob/master/Specifications/BinaryChop.md) - a binary search routine - from [KodeKata.com](www.codekata.com)
-- [CodeBreaker](ttps://github.com/jplebre/KataCollection/blob/master/Specifications/CodeBreaker.md) - did you guess the string?  
+- [CodeBreaker](https://github.com/jplebre/KataCollection/blob/master/Specifications/CodeBreaker.md) - did you guess the string?  
 - [Conway's Game of Life](https://github.com/jplebre/KataCollection/blob/master/Specifications/ConwayGameOfLife.md) Kata, from [Amirrajan's Blog](http://amirrajan.net/Blog/) and [Wikipedia](https://en.wikipedia.org/wiki/Conway%27s_Game_of_Life) 
 - [HowBigHowFast Kata](https://github.com/jplebre/KataCollection/blob/master/Specifications/HowBigHowFast.md) - calculating size and time requirements to process information - from [KodeKata.com](www.codekata.com)  
 - [NumbersToWords](https://github.com/jplebre/KataCollection/blob/master/Specifications/NumbersToWords.md)
