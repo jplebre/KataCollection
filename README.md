@@ -74,7 +74,7 @@ This is not common only to martial arts. [Malcolm Gladwell](http://www.amazon.co
 ## Algorithms and Tools Katas
 
 - [BinaryChop Kata](https://github.com/jplebre/KataCollection/blob/master/Specifications/BinaryChop.md), from [KodeKata.com](www.codekata.com)
-- [CodeBreaker](ttps://github.com/jplebre/KataCollection/blob/master/Specifications/CodeBreaker.md) 
+- [CodeBreaker](https://github.com/jplebre/KataCollection/blob/master/Specifications/CodeBreaker.md) 
 - [Conway's Game of Life](https://github.com/jplebre/KataCollection/blob/master/Specifications/ConwayGameOfLife.md), from [Amirrajan's Blog](http://amirrajan.net/Blog/) and [Wikipedia](https://en.wikipedia.org/wiki/Conway%27s_Game_of_Life) 
 - [HowBigHowFast Kata](https://github.com/jplebre/KataCollection/blob/master/Specifications/HowBigHowFast.md), from [KodeKata.com](www.codekata.com)  
 - [NumbersToWords](https://github.com/jplebre/KataCollection/blob/master/Specifications/NumbersToWords.md)
@@ -83,7 +83,7 @@ This is not common only to martial arts. [Malcolm Gladwell](http://www.amazon.co
 
 ## TDD Kata
 - [ArgumentParser](https://github.com/jplebre/KataCollection/blob/master/Specifications/ArgumentParser.md)
-- [BowlingKata](ttps://github.com/jplebre/KataCollection/blob/master/Specifications/BowlingKata.md)
+- [BowlingKata](https://github.com/jplebre/KataCollection/blob/master/Specifications/BowlingKata.md)
 - [FizzBuzz](https://github.com/jplebre/KataCollection/blob/master/Specifications/FizzBuzz.md)
 - [Fibonnacci Sequence Generator](https://github.com/jplebre/KataCollection/blob/master/Specifications/FibonacciSequence.md)
 - [KataPotter](https://github.com/jplebre/KataCollection/blob/master/Specifications/KataPotter.md), from [codingdojo.org](http://codingdojo.org/)
