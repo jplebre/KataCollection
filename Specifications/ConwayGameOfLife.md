@@ -19,7 +19,7 @@ This kata is not for the faint of heart :)
 * There should exist small initial patterns with chaotic, unpredictable outcomes.
 * There should be potential for von Neumann universal constructors.
 
-## Patterns:
+### Patterns:
 * Still patterns: Block, Behive, Float, Boat
 * Oscillator patterns: Pulsar, beacon, blinker, toad, pulsar, pentadecathlon
 * Spaceship patterns: Glider, LightWeight SpaceShip (LWSS)

@@ -1,6 +1,13 @@
 # Jelly vs Tower
 
-## Description
+## Background Info
+
+## Specification
+
+## Test Data
+
+## Use Case Scenarios
+
 Based on a board game, similar to the JellyDefense mobile game.
 Towers are setup in a map defend a town against incoming jellies.
 Create a console application (or GUI if you are up for it).

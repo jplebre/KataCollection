@@ -1,6 +1,10 @@
 # BlogWebApp
 
+## Background Info
+
+
 ## Specification
+
 * Simple blogging webapp.
 * You do not need to worry about the user interface.
 * Use TDD techniques such as mocking, faking and stubs to fake database entries.
@@ -10,7 +14,8 @@
 * Any user can comment on other user's entries (posts).
 * Any user can search for tags, recent entries, and blogs with certain tags.
 
-## Scenarios:
+## Use Case Scenarios
+
 **Scenario:** user A posts a new entry<br>
   Given user A posts a new entry<br>
   Then user A can see user A entry<br>
@@ -83,6 +88,7 @@
   And adds a new tag to the entry<br>
   Then user B can see all the tags in his blog<br>
 
+### More Use Cases
   
 * Post new entry
 * Delete existing entry

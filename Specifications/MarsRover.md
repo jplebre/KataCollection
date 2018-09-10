@@ -5,7 +5,7 @@
 [https://technologyconversations.com/2014/10/17/java-tutorial-through-katas-mars-rover/](https://technologyconversations.com/2014/10/17/java-tutorial-through-katas-mars-rover/)
 
 
-## The Kata
+## Background Info
 
 You’re part of the team that explores Mars by sending remotely controlled vehicles to the surface of the planet. Develop an API that translates the commands sent from earth to instructions that are understood by the rover.
 
@@ -24,8 +24,13 @@ Here is an example:
 - Let's say that the rover is located at 0,0 facing North on a 100x100 grid.
 - Given the command "ffrff" would put the rover at 2,2 facing East.
 
-## Tips
+### Tips
 
 Don't worry about the structure of the rover. Let the structure evolve as you add more tests. 
 Don't start up/use the debugger, use your tests to implement the kata. 
 If you find that you run into issues, use your tests to assert on the inner workings of the rover (as opposed to starting the debugger).
+
+
+## Test Data
+
+## Use Case Scenarios

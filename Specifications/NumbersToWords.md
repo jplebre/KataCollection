@@ -1,5 +1,13 @@
 # Numbers to Words Kata
 
+## Background Info
+
+## Specification
+
+## Test Data
+
+## Use Case Scenarios
+
 ## Getting setup
 Have python & [pipenv](https://github.com/kennethreitz/pipenv) and install the deps:
 

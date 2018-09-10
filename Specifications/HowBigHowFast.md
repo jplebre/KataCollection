@@ -1,5 +1,14 @@
 # How Big How Fast
-Rough estimation is a useful talent to possess.
+
+## Background Info
+
+Rough estimation is a useful talent to possess, calculating size and time requirements to process information.
+
+## Specification
+
+## Test Data
+
+## Use Case Scenarios
 
 ## Specification
 

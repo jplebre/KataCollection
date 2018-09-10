@@ -1,6 +1,8 @@
 # Bowling Kata
 
-## The Kata
+Simulate a bowling game.
+
+## Background Info
 
 Create a program, which, given a valid sequence of rolls for one line of American Ten-Pin Bowling, produces the total score for the game.
 Here are some things that the program will not do:
@@ -8,6 +10,9 @@ Here are some things that the program will not do:
 We will not check for valid rolls.
 We will not check for correct number of rolls and frames.
 We will not provide scores for intermediate frames.
+
+
+## Specification
 
 We can briefly summarize the scoring for this form of bowling:
 
@@ -21,10 +26,16 @@ The game score is the total of all frame scores.
 
 More info on the rules at: [How to Score for Bowling](http://www.topendsports.com/sport/tenpin/scoring.htm)
 
-### Clues
+### Tips
+
 What makes this game interesting to score is the lookahead in the scoring for strike and spare. At the time we throw a strike or spare, we cannot calculate the frame score: we have to wait one or two frames to find out what the bonus is.
 
-### Suggested Test Cases
+
+## Use Case Scenarios
+
+
+## Test Data
+
 (When scoring “X” indicates a strike, “/” indicates a spare, “-” indicates a miss)
 
   * X X X X X X X X X X X X (12 rolls: 12 strikes) = 10 frames * 30 points = 300

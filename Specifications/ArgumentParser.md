@@ -1,4 +1,14 @@
-### Argument Parser
+# Argument Parser
+
+## Background Info
+Read and Parse CLI flags;
+
+## Specification
+
+## Test Data
+
+## Use Case Scenarios
+
 * Converts short options to booleans -a
 * Converts many short options into booleans –a -b
 * Converts many short options together into booleans -abc

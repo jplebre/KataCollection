@@ -1,6 +1,14 @@
-The Multi-threaded Santa TDD Challenge
+# The Multi-threaded Santa TDD Challenge
 
 PLEASE GO TO [CODEMANSHIP](http://codemanship.co.uk/parlezuml/blog/?postid=1337) FOR THE ORIGINAL ARTICLE.
+
+## Background Info
+
+## Specification
+
+## Test Data
+
+## Use Case Scenarios
 
 If you've hunted on the Interwebs for TDD katas, you will no doubt have noticed that they tend to be based on relatively straightforward problems. In particular, there are no - as far as I'm aware - TDD katas that set more challenging high-volume, multi-threaded, multi-process problems to solve.
 

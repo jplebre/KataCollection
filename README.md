@@ -1,5 +1,7 @@
 # KataCollection
-Collection of Kata Descriptions.
+
+### Collection of Kata Descriptions.
+
 Disclaimer: None of these are mine. Taken from several git repos and blog posts or books. I aim to rewrite them into exercises as I work with them and as I do katas at our code dojo sessions or at home to better suit my purpose.
 
 Hopefully they'll be useful to you.
@@ -21,10 +23,10 @@ This is not common only to martial arts. [Malcolm Gladwell](http://www.amazon.co
 # Conducting a Kata
 
 ### To have a good kata session you need:
+
 * **Time** without interruptions.
 * **A simple** kata theme.
-* **Continuous feedback**. A tool like PHP_Autotest is fine.
-* **Make sure** attendants have installed PHPUnit, PhpSpec or equivalent before coming to the kata
+* **Make sure** you install SDK and Tooling for the language/framework of your choice before hand
 
 ### Prior to the kata:
 
@@ -45,48 +47,48 @@ This is not common only to martial arts. [Malcolm Gladwell](http://www.amazon.co
 * **Wrap it up**. Ask for comments, questions, learning experiences. Remember to keep it within the agreed time. People will not come next time if you are not disciplined to finished on time.
 
 # 3 Laws of TDD
-
 * Don't write any code unless you are making a failing test pass
 * Don't add to the test more than enough to get a failure
 * Only write enough code to make the one failing test to pass
 
 # 4 Rules of Simple Design
-
 * All tests must run and pass
 * Contains no duplication
 * Express the intent of the programmer
 * Minimise number of classes and methods
 
 ## Object Oriented katas
+
 - [BlogWebApp Kata](https://github.com/jplebre/KataCollection/blob/master/Specifications/BlogWebApp.md), from [Colleen Kirtland TDD Problems Blog](https://sites.google.com/site/tddproblems/all-problems-1)
-- [ClamCard Kata](https://github.com/jplebre/KataCollection/blob/master/Specifications/ClamCard.md) - do your own OysterCard system - from [Amiralizazabi](https://github.com/amiralibazazi) available [here](https://gist.github.com/amiralibazazi/a9d57d40886604887d8e#file-clamcardkata-txt-L70);
+- [ClamCard Kata](https://github.com/jplebre/KataCollection/blob/master/Specifications/ClamCard.md), from [Amiralizazabi](https://github.com/amiralibazazi) available [here](https://gist.github.com/amiralibazazi/a9d57d40886604887d8e#file-clamcardkata-txt-L70);
 - [MarsRover Kata](https://github.com/jplebre/KataCollection/blob/master/Specifications/MarsRover.md), from [Amirrajan's Blog](http://amirrajan.net/Blog/)
 - [Roll your own Unit Test Framework](https://github.com/jplebre/KataCollection/blob/master/Specifications/RollYourOwnUnitTestFramework.md), from [Jason Gorman's SC2016 backlog](http://codemanship.co.uk/parlezuml/blog/?postid=1346)
 - [Roll your own Mock Object framework](https://github.com/jplebre/KataCollection/blob/master/Specifications/RollYourOwnMockObjectFramework.md), from [Jason Gorman's SC2016 backlog](http://codemanship.co.uk/parlezuml/blog/?postid=1355) 
 - [SocialNetworkExercise](https://github.com/jplebre/KataCollection/blob/master/Specifications/SocialNetwork.md), from [Franziskas](https://github.com/franziskas) available [here](https://github.com/franziskas/social-network-exercise)
-- [Towers vs Jelly](https://github.com/jplebre/KataCollection/blob/master/Specifications/JellyVsTower.md), inspired on a mobile game.
-- [TransferSmart](https://github.com/jplebre/KataCollection/blob/master/Specifications/TransferSmart.md) - a money transfer system.
+- [Towers vs Jelly](https://github.com/jplebre/KataCollection/blob/master/Specifications/JellyVsTower.md) - inspired on a mobile game
+- [TransferSmart](https://github.com/jplebre/KataCollection/blob/master/Specifications/TransferSmart.md) - a money transfer system
 - [VendingMachine Kata](https://github.com/jplebre/KataCollection/blob/master/Specifications/VendingMachine.md), from [Amirrajan's Blog](http://amirrajan.net/Blog/)
-- [VideoClubRental Kata](https://github.com/jplebre/KataCollection/blob/master/Specifications/VideoClubRental.md), from Jason Gorman's [TDD workshops](http://www.codemanship.co.uk/)
+- [VideoClubRental Kata](https://github.com/jplebre/KataCollection/blob/master/Specifications/VideoClubRental.md), from [Jason Gorman's TDD workshops](http://www.codemanship.co.uk/)
 
 
 ## Algorithms and Tools Katas
-- [BinaryChop Kata](https://github.com/jplebre/KataCollection/blob/master/Specifications/BinaryChop.md) - a binary search routine - from [KodeKata.com](www.codekata.com)
-- [CodeBreaker](ttps://github.com/jplebre/KataCollection/blob/master/Specifications/CodeBreaker.md) - did you guess the string?  
-- [Conway's Game of Life](https://github.com/jplebre/KataCollection/blob/master/Specifications/ConwayGameOfLife.md) Kata, from [Amirrajan's Blog](http://amirrajan.net/Blog/) and [Wikipedia](https://en.wikipedia.org/wiki/Conway%27s_Game_of_Life) 
-- [HowBigHowFast Kata](https://github.com/jplebre/KataCollection/blob/master/Specifications/HowBigHowFast.md) - calculating size and time requirements to process information - from [KodeKata.com](www.codekata.com)  
+
+- [BinaryChop Kata](https://github.com/jplebre/KataCollection/blob/master/Specifications/BinaryChop.md), from [KodeKata.com](www.codekata.com)
+- [CodeBreaker](ttps://github.com/jplebre/KataCollection/blob/master/Specifications/CodeBreaker.md) 
+- [Conway's Game of Life](https://github.com/jplebre/KataCollection/blob/master/Specifications/ConwayGameOfLife.md), from [Amirrajan's Blog](http://amirrajan.net/Blog/) and [Wikipedia](https://en.wikipedia.org/wiki/Conway%27s_Game_of_Life) 
+- [HowBigHowFast Kata](https://github.com/jplebre/KataCollection/blob/master/Specifications/HowBigHowFast.md), from [KodeKata.com](www.codekata.com)  
 - [NumbersToWords](https://github.com/jplebre/KataCollection/blob/master/Specifications/NumbersToWords.md)
 - [RomanCalculator](https://github.com/jplebre/KataCollection/blob/master/Specifications/RomanCalculator.md)
 - [StringCalculator](https://github.com/jplebre/KataCollection/blob/master/Specifications/StringCalculator.md)
 
 ## TDD Kata
-- [ArgumentParser](https://github.com/jplebre/KataCollection/blob/master/Specifications/ArgumentParser.md) - creating CLI flags;
-- [BowlingKata](ttps://github.com/jplebre/KataCollection/blob/master/Specifications/BowlingKata.md) - simulate a bowling game;
-- [FizzBuzz](https://github.com/jplebre/KataCollection/blob/master/Specifications/FizzBuzz.md) - a simple social game;
-- [Fibonnacci Sequence Generator](https://github.com/jplebre/KataCollection/blob/master/Specifications/FibonacciSequence.md) - create a program that outputs the Fibonnacci sequence;
-- [KataPotter](https://github.com/jplebre/KataCollection/blob/master/Specifications/KataPotter.md) - calculating discount for bestselling book franchises - from [codingdojo.org](http://codingdojo.org/)
-- [PrimeFactors](https://github.com/jplebre/KataCollection/blob/master/Specifications/PrimeFactors.md) Kata, from [Amirrajan's Blog](http://amirrajan.net/Blog/)  
-- [SuperMarket](https://github.com/jplebre/KataCollection/blob/master/Specifications/SupermaketSimplified.md) simplified version kata, from [7Digital Kata Collection](https://github.com/7digital/kata-checkout) adapted from [Dave Thomans Kode Kata](http://codekata.com/kata/kata09-back-to-the-checkout)  
+- [ArgumentParser](https://github.com/jplebre/KataCollection/blob/master/Specifications/ArgumentParser.md)
+- [BowlingKata](ttps://github.com/jplebre/KataCollection/blob/master/Specifications/BowlingKata.md)
+- [FizzBuzz](https://github.com/jplebre/KataCollection/blob/master/Specifications/FizzBuzz.md)
+- [Fibonnacci Sequence Generator](https://github.com/jplebre/KataCollection/blob/master/Specifications/FibonacciSequence.md)
+- [KataPotter](https://github.com/jplebre/KataCollection/blob/master/Specifications/KataPotter.md), from [codingdojo.org](http://codingdojo.org/)
+- [PrimeFactors](https://github.com/jplebre/KataCollection/blob/master/Specifications/PrimeFactors.md), from [Amirrajan's Blog](http://amirrajan.net/Blog/)  
+- [SuperMarket](https://github.com/jplebre/KataCollection/blob/master/Specifications/SupermaketSimplified.md), from [7Digital Kata Collection](https://github.com/7digital/kata-checkout) adapted from [Dave Thomans Kode Kata](http://codekata.com/kata/kata09-back-to-the-checkout)  
 - [ZombieSurvivor](https://github.com/jplebre/KataCollection/blob/master/Specifications/ZombieSurvivor.md)
 
 

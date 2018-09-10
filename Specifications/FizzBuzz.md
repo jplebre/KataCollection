@@ -1,6 +1,6 @@
 #FizzBuzz
 
-## The Kata
+## Background Info
 * Returns 'Fizz' if 3 is passed
 * Returns 'Buzz' if 5 is passed
 * Returns 'Fizz' if a multiple of 3 is passed
@@ -10,7 +10,7 @@
 * Returns '' if 0 is passed
 * Returns the bare number for all other cases
 
-##Specification
+## Specification
 
 * For multiples of three print 'Fizz' instead of the number.
 * For the multiples of five print 'Buzz' instead of the number.
@@ -43,14 +43,18 @@ Buzz
 ... upto 100.
 ```
 
-##Tips
+### Tips
 Don't focus on the outputed list, focus on what should come out of the program first.
 Eg. what is the very first thing the program should do? and the second? and the third?
 Output format is not important, specially if you are practicing unit tests or TDD.
 
-##More Variations
+### More Variations
 Some people on the internet were adding interesting twists like:
 * Multiples of Seven Return Pop.
 * Multiples of Three and Seven Return Fizz Pop.
 * Multiples of Five and Seven Return Buzz Pop.
 * Multiples of Three, Five and Seven Return Fizz Buzz Pop.
+
+## Test Data
+
+## Use Case Scenarios

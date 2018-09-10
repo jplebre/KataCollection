@@ -1,11 +1,11 @@
-Zombie Survivor Kata
-====================
+# Zombie Survivor Kata
 Source: [https://github.com/ardalis/kata-catalog](https://github.com/ardalis/kata-catalog)
 
-# Instructions #
+## Background Info
 
 This kata constructs a model for a zombie boardgame's survivors. If you enjoy the kata, you may find the Zombicide series of boardgames fun as well. Complete each step before reading ahead to the next one. Revise your design to react to new requirements as they appear.
 
+## Specification
 ## Step One: Survivors
 
 The zombie apocalypse has occurred. You must model a Survivor in this harsh world. Sometimes, they get hurt, and even die.
@@ -85,8 +85,12 @@ As the Game proceeds, Survivors get better.
 - A Survivor can restart a second time, unlocking their last Red skill at (43 + 43 + 43 = 129 total) experience.
 - The Game History notes that a Survivor has acquired a new Skill.
 
-## Notes
+### Tips
 
 How did you model interaction between the Survivors and the Game? Do Survivors have direct access to the Game in which they are playing? If so, can code in a Survivor's methods directly modify the state of other Survivors in the same game? Is that a potential problem?
 
 How did you model the Game History? Did you make sure to keep the responsibility for tracking history a concern of the Game, and not of individual Survivors?
+
+## Test Data
+
+## Use Case Scenarios

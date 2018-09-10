@@ -1,6 +1,6 @@
 # Binary Chop
 
-## Background info
+## Background Info
 
 A binary chop/binary search finds the position of value in a sorted array of values. 
 It finds the middle index of the array and establishes if the value is above or below the split point.
@@ -15,7 +15,16 @@ Example:
 * Functional style passing array slices around
 * etc.
 
-## Tips
+
+## Specification
+
+* Binary chop method that takes an integer search target and a sorted array of integers. 
+* Should return the integer index of the target in the array, or -1 if the target is not in the array.
+* You can assume that the array has less than 100,000 elements.
+* The signature will logically be:
+
+### Tips
+
 1. Keep track of errors you encounter (“off by one”, etc.)
 2. Compare the techniques chose.
   * Which is the most likely to make it in to production code? 
@@ -24,17 +33,12 @@ Example:
   * etc.
 3. It’s hard to come up with five unique approaches to a binary chop.
 
-## Specification
-* Binary chop method that takes an integer search target and a sorted array of integers. 
-* Should return the integer index of the target in the array, or -1 if the target is not in the array.
-* You can assume that the array has less than 100,000 elements.
-* The signature will logically be:
 
-```Ruby
-chop(int, array_of_int)  -> int
-```
+## Use Case Scenarios
+
 
 ## Test Data
+
 Example of the Test::Unit code (in Ruby) I used when developing my methods. Feel free to add to it. 
 The tests assume that array indices start at zero.
 

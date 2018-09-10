@@ -1,5 +1,11 @@
-# Specification
+# ClamCard
+
+## Background Info
+
+Make your own implementation of the OysterCard system :)
 Implement a system for a contactless travel card for the London underground.
+
+## Specification
 
 * The card does not need to be topped up.
 * The card charges the owner's bank account directly when used.
@@ -31,7 +37,7 @@ Implement a system for a contactless travel card for the London underground.
 * A month fare includes all single journies made within a single month.
 * No matter how many journies are made within one of the time boundaries within a particular zone, the price will cap at that time period's fare.
 
-# USE CASE SCENARIOS:
+## Use Case Scenarios
 
 **Scenario:** One-Way Zone 1 Journey<br>
 Given Michael has an Oyster Card<br>

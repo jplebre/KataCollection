@@ -1,26 +1,6 @@
 # Checkout Kata
 
-## Getting setup
-Have python & [pipenv](https://github.com/kennethreitz/pipenv) and install the deps:
-
-```bash
-pipenv install
-```
-
-Run the tests so you know your env works:
-
-```bash
-pipenv run pytest
-```
-
-## How this Kata will work
-
-* Ideally done in pairs following the [strong driver navigator style](../../docs/pairing/llewellyn.md).
-
-* TDD. Keep red, green, refactoring until you think you've covered the requirement.
-
-## The kata itself
-
+## Background
 The goal of this kata is to build a calculator for an ancient roman. 
 Roman numerals will be the input and output. Arabic numerals must appear nowhere
 in your code or tests. This means you can't use any function which takes
@@ -29,7 +9,7 @@ or returns a numeric value.
 * Create a calculator that can add up to M.
 * Do NOT use any numeric functions in your code.
 
-## Roman numerals
+## Specifications
 In case you're unsure here are the values of each numeral:
 
 | Numeral  | Value   |
@@ -54,3 +34,8 @@ so the following values are special:
 | XL        | 40      |
 | XC        | 90      |
 | etc. etc. |         |
+
+
+## Test Data
+
+## Use Case Scenarios

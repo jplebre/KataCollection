@@ -1,5 +1,6 @@
 # VideoClub Rental
 
+## Background Info
 This is a big one. It feels fairly simple but it can grow very quickly.
 Based it of an exercise presented by Jason Gorman on his fabulous TDD workshops and built upon it to add some more content.
 
@@ -17,8 +18,7 @@ Based it of an exercise presented by Jason Gorman on his fabulous TDD workshops 
 * Administrator-level users can create or delete new users
 * Administrator-level users can create a new newsletter
 
-## Use-case Scenarios
-
+## Use Case Scenarios
 **Scenario:** User registring to videoclub as an adult<br>
   Given User A registers with name: "Sam", age: 18, email: "sam@brfaz12345.com"<br>
   When library registers an entry for User A<br>
@@ -90,3 +90,6 @@ Based it of an exercise presented by Jason Gorman on his fabulous TDD workshops 
   And user A sends a newsletter email<br>
   Then user B receives a newsletter email<br>
   And user C receives a newsletter email<br>
+
+
+## Test Data
