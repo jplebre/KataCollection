@@ -64,7 +64,7 @@ This is not common only to martial arts. [Malcolm Gladwell](http://www.amazon.co
 - [MarsRover Kata](https://github.com/jplebre/KataCollection/blob/master/Specifications/MarsRover.md), from [Amirrajan's Blog](http://amirrajan.net/Blog/)
 - [Roll your own Unit Test Framework](https://github.com/jplebre/KataCollection/blob/master/Specifications/RollYourOwnUnitTestFramework.md), from [Jason Gorman's SC2016 backlog](http://codemanship.co.uk/parlezuml/blog/?postid=1346)
 - [Roll your own Mock Object framework](https://github.com/jplebre/KataCollection/blob/master/Specifications/RollYourOwnMockObjectFramework.md), from [Jason Gorman's SC2016 backlog](http://codemanship.co.uk/parlezuml/blog/?postid=1355) 
-- [SocialNetworkExercise](https://github.com/jplebre/KataCollection/blob/master/Specifications/SocialNetwork.md), from [Franziskas](https://github.com/franziskas) available [here](https://github.com/franziskas/social-network-exercise)
+- [SocialNetworkExercise](https://github.com/jplebre/KataCollection/blob/master/Specifications/SocialNetwork.md), from [Juke](https://github.com/jukecraft) available [here](https://github.com/jukecraft/social-network-exercise)
 - [Towers vs Jelly](https://github.com/jplebre/KataCollection/blob/master/Specifications/JellyVsTower.md) - inspired on a mobile game
 - [TransferSmart](https://github.com/jplebre/KataCollection/blob/master/Specifications/TransferSmart.md) - a money transfer system
 - [VendingMachine Kata](https://github.com/jplebre/KataCollection/blob/master/Specifications/VendingMachine.md), from [Amirrajan's Blog](http://amirrajan.net/Blog/)
